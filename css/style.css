@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 70px;
+    background: rgb(3,1,36);
+    background: rgb(3,1,36);
+    background: linear-gradient(90deg, rgba(3,1,36,1) 11%, rgba(8,46,97,1) 28%, rgb(4, 146, 106) 100%);
+}
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 52px;
+    background: -webkit-linear-gradient(90deg, rgb(7, 3, 80) 0%, rgb(18, 121, 153) 50%, rgb(59, 207, 218) 100%);
+    -webkit-background-clip : text;
+    -webkit-text-fill-color: transparent;
+}
+header{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+     width: 20%;
+     height: 0vh;
+     margin: 0 5px;
+     border: 1px solid  rgb(18, 121, 153);
+}
+span{
+    border: 10px solid  rgb(18, 121, 153);
+    border-radius: 100px;
+}
+.container{
+    margin: 0 auto;
+    background: rgb(3,1,36);
+    background: linear-gradient(90deg, rgba(3,1,36,1) 0%, rgba(8,76,97,1) 53%, rgb(2, 107, 91) 100%);
+    width: 60%;
+    display: flex;
+}
+.form-container{
+    width: 50%;
+}
+.form-header{
+    display: flex;
+    justify-content: center; 
+}
+.logo{
+    border-radius:25%;
+    width: 25%;
+}
+.left-form{
+    width: 25%;
+}
+.girl{
+    width: 100%;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    display: flex;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    gap: 13px;
+}
+input[type="text"]{
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 100%;
+    padding: 16px;
+    border-radius: 10px;
+}
+button{
+    color: white;
+    border: none;
+    border-radius: 6px;
+    background: rgb(19, 178, 226);
+    margin-top: 15px;
+    padding: 10px;
+}
+.right-form{
+    width: 28%;
+    background-color: rgb(12, 143, 123);
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+.robot{
+    margin-top:15px;
+    margin-left: 60px;
+    width: 60%;
+    height:40%; 
+}
